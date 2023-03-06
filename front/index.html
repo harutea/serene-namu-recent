@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>serene-namu-recent</title>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js" type="text/javascript" charset="utf-8"></script>
+        <style>
+            body {
+                font-family: '돋움', 'Dotum', '돋움체', 'DotumChe';
+            }
+            h1 {
+                color : #00a495;
+                font-size : 46px;
+            }
+            button {
+                background: #00a495;
+                color: #fff;
+                border: none;
+                outline: none;
+                font-size: 22px;
+                width: 398px;
+                height: 54px;
+            }
+        </style>
+    </head>
+    <body>
+        <div align=center >
+            <h1>serene-namu-recent</h1>
+            <h3>기동 상태 : <span id="state_getdata">On</span></h3>
+            <div id="svg"></div>
+            <br />
+            <button onclick="start()">시작</button>
+            <button onclick="stop()">중지</button>
+            <br /><br />
+            <br /><br />
+            Copyright 2020. Kihun Jang. All rights reserved.
+            <br /><br />
+        </div>
+        <script src="main.js"></script>
+    </body>
+    
+</html>
